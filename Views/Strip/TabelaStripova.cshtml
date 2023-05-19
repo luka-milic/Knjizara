@@ -1,0 +1,43 @@
+﻿ @model IEnumerable<Knjizara.Models.Strip>
+
+@{
+    ViewBag.Title = "Strip";
+}
+
+<h2>Pregled stripova</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Naziv)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Izdavac)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cena)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Naziv)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Izdavac)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cena)
+        </td>
+        <td>
+            @Html.ActionLink("Izmeni", "Izmeni", new { id=item.Id }) |
+            @Html.ActionLink("Detalji", "Detalji", new { id=item.Id }) |
+            @Html.ActionLink("Obrisi", "Obrisi", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

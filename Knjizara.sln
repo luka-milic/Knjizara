@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knjizara", "Knjizara.csproj", "{617945B3-9157-4D03-9AE7-C190D7A4E0CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{617945B3-9157-4D03-9AE7-C190D7A4E0CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617945B3-9157-4D03-9AE7-C190D7A4E0CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617945B3-9157-4D03-9AE7-C190D7A4E0CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617945B3-9157-4D03-9AE7-C190D7A4E0CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9354AC31-AD1F-488D-9BAC-37FB0768B864}
+	EndGlobalSection
+EndGlobal
